@@ -94,7 +94,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  Submit
                 </button>
               </div>
             </form>
@@ -109,19 +109,19 @@ const Contact = () => {
             </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="hello"
+              href="mailto:mahmoudashraf.works2@gmail.com"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              aakash.sh858791@gmail.com
+              mahmoudashraf.works2@gmail.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
-              Jhilmil Colony, Delhi
+              Alexandria
               <br />
-              India
+              Egypt
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
@@ -145,9 +145,9 @@ const Contact = () => {
             : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20"
         }
       >
-        Made with
+        Edited with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Aakash Sharma
+        by&nbsp;<a href="mailto:mohamedsamahi.work@gmail.com">Mohamed Samahi</a>
       </div>
     </div>
   );

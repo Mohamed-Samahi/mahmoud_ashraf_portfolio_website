@@ -36,17 +36,17 @@ export const techStack = [
 ]
 
 
-export const contactLinks = [{ name: 'Stack Overflow', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/11788531/aakash-sharma' },
+export const contactLinks = [{ name: 'Kaggle', url: 'https://img.icons8.com/?size=40&id=1iP83OYM1FL-&format=png&color=20BEFF', link: 'https://www.kaggle.com/mahmoudashraf1' },
 { name: 'Instagram', url: 'https://img.icons8.com/doodle/40/000000/instagram-new--v2.png', link: 'https://www.instagram.com/aakashsh1999/' },
-{ name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/aakashsh1999'},
-{ name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/aakashsh1999/'}
+{ name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link: 'https://github.com/MahmoudAshraf12' },
+{ name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://www.linkedin.com/in/mahmoud-ashraf-a51a74239/' }
 ]
 
 
 
 export const serviceData = [
   {
-    name: 'Web Application Development',
+    name: 'Data Engineering',
     desc: 'Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine',
     img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png"
   },

@@ -29,14 +29,12 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Mahmoud Ashraf
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Front End Developer",
-                    1000,
-                    "Full Stack Developer",
+                    "Data Engineer",
                     1000,
                     "Mobile Developer",
                     1000,
@@ -52,8 +50,8 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              I am a Data Engineer / Mobile Developer. I am currently working at
+              El Waha Green  Feed Trading Company as Data Engineer.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -68,9 +66,17 @@ const Home = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
-                  Resume
-                </Link>
+                <button
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+                >
+                  <a
+                    href="/cv/Mahmoud_Ashraf_CV.pdf"
+                    target='_blank'
+                    download="Mahmoud Ashraf's CV"
+                  >
+                    Resume
+                  </a>
+                </button>
               </div>
             </div>
           </div>
